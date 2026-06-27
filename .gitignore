@@ -1,0 +1,14 @@
+# 跑团存档（隐私，每个用户本地生成）
+data/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 编辑器 / 系统
+.DS_Store
+.idea/
+.vscode/
+*.swp
