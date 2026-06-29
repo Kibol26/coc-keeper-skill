@@ -1,0 +1,75 @@
+NOTICE — CoC 7e Fair Use Declaration
+====================================
+
+coc-keeper is an open-source AI Keeper skill for the Hermes Agent ecosystem.
+This notice clarifies the relationship between coc-keeper and the original
+*Call of Cthulhu* tabletop role-playing game by Chaosium Inc.
+
+
+1. WHAT COC-KEEPER USES
+-----------------------
+
+coc-keeper references **core mechanical concepts** from the *Call of
+Cthulhu* 7th Edition Keeper Rulebook (published by Chaosium Inc.),
+including but not limited to:
+
+  - The d100 / percentile dice mechanic
+  - Skill check resolution (regular / hard / extreme success, fumble,
+    critical success thresholds)
+  - The SAN (Sanity) attribute and SAN check procedure
+  - The bout-of-madness mechanic and its tables
+  - The clue / investigation structure of scenarios
+
+These references appear as **prompt engineering material** — the AI
+Keeper is told *how* the rules work so it can adjudicate player actions.
+
+
+2. WHAT COC-KEEPER DOES NOT INCLUDE
+-----------------------------------
+
+  - **No module / scenario text** from any published CoC adventure
+    (e.g. *The House on the Borderland*, *The Haunting*, *Masks of
+    Nyarlathotep*, etc.). The two built-in scenarios
+    (《山间怪屋》/ "Borderland" and 《沙漠驿站》/ "Solo Crypt") are
+    **original** prompt-skeleton scenarios written specifically for
+    this skill, not transcriptions of published Chaosium material.
+  - **No full rulebook text** — only short, paraphrased references for
+    the AI to follow.
+  - **No artwork, character art, or trade dress** from Chaosium.
+
+
+3. INTENDED USE
+---------------
+
+  - Free, non-commercial use by tabletop groups who already own the
+    *Call of Cthulhu* rulebook and want an AI-assisted Keeper.
+  - Educational / research use of the prompt engineering techniques
+    demonstrated in SKILL.md and references/v2_design_notes.md.
+  - NOT intended to replace the rulebook. Players and Keepers should
+    own (or have access to) a physical / digital copy of the CoC 7e
+    Keeper Rulebook for full gameplay.
+
+
+4. NO AFFILIATION
+-----------------
+
+coc-keeper is an independent community project. It is **not affiliated
+with, endorsed by, or sponsored by Chaosium Inc.** All references to
+*Call of Cthulhu*, CoC, and related marks are for descriptive /
+compatibility purposes only.
+
+
+5. WHY THIS NOTICE EXISTS
+-------------------------
+
+  - Chaosium has a published *Call of Cthulhu* **Fair Use Policy**
+    permitting community projects that follow the spirit of the rules
+    without redistributing protected text. coc-keeper follows that
+    policy.
+  - This file is the only place where the above is stated explicitly.
+    README, SKILL.md, and other docs refer back to this NOTICE
+    rather than restating it.
+
+
+For the upstream Fair Use Policy, see:
+https://www.chaosium.com/blog/a-fair-use-policy-for-call-of-cthulhu/
